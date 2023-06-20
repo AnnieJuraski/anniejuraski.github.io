@@ -8,9 +8,32 @@ Link para o projeto: https://anniealves.github.io
 <br>
 <h2>Requisitos</h2>
 <br>
-* Deve funcionar apenas com letras minúsculas<br>
-* Não devem ser utilizados letras com acentos nem caracteres especiais<br>
-* Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
+* Deve ter um menu de navegação;
+* Deve ter uma imagem que servirá de banner;
+* Deve conter uma seção "sobre mim":
+* Deve ter uma foto de perfil;
+* Deve incluir um link para as suas redes sociais;
+* Deve conter estes dados pessoais:
+  Nome;
+  Idade;
+  Nacionalidade;
+  Biografia.
+* Deve ter uma seção de Hobbies e Soft Skills;
+Por exemplo:
+  Hobbies: Atividades que você gosta de fazer;
+Soft Skills: Comunicação, liderança, empatia, etc.
+* Deve ter uma seção de formações e cursos;
+  Aqui você pode colocar as formações e cursos que você já tenha feito, mesmo que não seja na área da programação. (Coloque as mais importantes)
+* Deve ter uma seção de experiência em programação;
+  Aqui você pode colocar os projetos que você já realizou anteriormente, como, por exemplo: os projetos do challenge iniciante em programação.
+* Deve ter um formulário de contato com os campos para:
+  Email;
+  Nome;
+  Assunto;
+  Mensagem.
+* Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
+
 <br>
 <br>
 <br>
