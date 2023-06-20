@@ -22,12 +22,6 @@ certificadoWomakers.addEventListener('click', () => {
 
 
 
-scrollToTopBTN.addEventListener("click", () => {
-    window.scrollTo(0, 0);
-});
-
-
-
 
 
 

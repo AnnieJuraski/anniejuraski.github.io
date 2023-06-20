@@ -13,6 +13,10 @@ export function showToTopBTN (){
     }
 }
 
+scrollToTopBTN.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+});
+
 
 export function setActiveLink() {
     const scrollPosition = window.scrollY;
