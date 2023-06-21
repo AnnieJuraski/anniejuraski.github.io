@@ -6,41 +6,9 @@ Portfólio desenvolvido para o desafio Alura de Front-End.
 Link para o projeto: https://anniealves.github.io
 <br>
 <br>
-<h2>Requisitos</h2>
-<br>
-
-* Deve ter um menu de navegação;
-* Deve ter uma imagem que servirá de banner;
-* Deve conter uma seção "sobre mim":
-* Deve ter uma foto de perfil;
-* Deve incluir um link para as suas redes sociais;
-* Deve conter estes dados pessoais:
-  Nome;
-  Idade;
-  Nacionalidade;
-  Biografia.
-* Deve ter uma seção de Hobbies e Soft Skills;
-Por exemplo:
-  Hobbies: Atividades que você gosta de fazer;
-Soft Skills: Comunicação, liderança, empatia, etc.
-* Deve ter uma seção de formações e cursos;
-  Aqui você pode colocar as formações e cursos que você já tenha feito, mesmo que não seja na área da programação. (Coloque as mais importantes)
-* Deve ter uma seção de experiência em programação;
-  Aqui você pode colocar os projetos que você já realizou anteriormente, como, por exemplo: os projetos do challenge iniciante em programação.
-* Deve ter um formulário de contato com os campos para:
-  Email;
-  Nome;
-  Assunto;
-  Mensagem.
-* Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
-
-<br>
-<br>
-<br>
 <h2> Layout </h2>
 <br>
-
-<br>
+Desenvolvi um layout próprio, pois por se tratar de um portfólio que usarei futuramente como meu site, quero uma coisa que seja mais parecido com o que eu gostaria. Então fiz um layout verticalizado, utilizando menus de navegação fixo no topo e um botão que nos leva de volta para o topo. Utilizei como header uma imagem de notebook com tela de programação, sendo aplicado um blur de 4px. Com a estilização, criei um efeito de paralax.
 <br>
 <br>
 <h2> Tecnologias utilizadas neste projeto</h2>

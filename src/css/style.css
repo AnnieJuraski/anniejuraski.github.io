@@ -124,7 +124,7 @@ header{
 }
 
 .parallax{
-    background-image: url(../img/bg-header.png);    
+    background-image: url(../img/bg-header-resize.png);    
 }
 
 .parallax::after{
@@ -232,7 +232,7 @@ header{
 }
 
 .section__title{
-    margin-top: 200px;
+    margin-top: 100px;
     width: 100%;
     border-bottom: 2px solid var(--darker-purple);
     text-align: center;
@@ -272,8 +272,7 @@ section p{
 
 .content__box{    
     width: 180px;
-    background: linear-gradient( to bottom, hsl(285, 80%, 10%), hsl(280, 70%, 65%), hsl(280, 85%, 10%));
-    background: linear-gradient( to bottom, hsl(285, 60%, 10%), hsl(280, 10%, 50%), hsl(280, 65%, 10%));
+    background: linear-gradient( to bottom, hsl(283, 35%, 60%), hsl(280, 65%, 10%));
     padding: 10px;
     border-radius: 20px;
     position: relative;   
@@ -337,6 +336,7 @@ section p{
 
 .projeto__thumb{
     width: 45%;
+    flex-shrink: 2;
 }
 
 .projetos__container {
@@ -432,8 +432,121 @@ section p{
     transform: scale(1);     
 }
 
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__title{
+    margin: 100px 0 50px 0;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+}
+
+
+.control-form{
+    margin-bottom: 16px;
+    width: 40%;
+    flex-grow: 1;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.control-form:first-child{
+    margin-right: 60px;
+}
+
+
+.control-form.subject{
+   
+    width: 100%;
+}
+
+
+.control-form.msg{
+   
+    width: 100%;
+}
 
 
 
 
 
+label{
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+
+textarea, input{    
+    margin-top: 10px;
+    width: 100%;
+    height: 48px;    
+    border: none;
+    padding: 5px 16px;    
+    font-size: 2.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--primary-color);
+    background: hsla(0, 0%, 1%, 0.3);
+    color: var(--white);
+    
+    /* background: hsl(0, 0%, 2%) */
+}
+
+input.error-form{
+    border-bottom: 1px solid red;
+}
+
+textarea{
+    height: 400px;
+    padding: 16px;
+    resize: none;
+}
+
+
+textarea::placeholder, 
+input::placeholder{
+    color: hsl(0, 0%, 20%);  
+    font-family: var(--mainFont);  
+}
+
+.error {
+    font-size: 1.5rem;
+    color: red;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    display: none;
+}
+
+
+
+.send{    
+    padding: 10px;
+    margin: 50px  auto;
+    width: 500px;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+
+footer{
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+
+footer em{
+    font-style: italic;
+}
+
+
+
+#teste{
+    width: 100%;
+}

@@ -25,7 +25,7 @@ export function setActiveLink() {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.offsetHeight;
   
-      if ((scrollPosition + 450)>= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+      if ((scrollPosition + 550)>= sectionTop && scrollPosition < sectionTop + sectionHeight) {
         navLinks.forEach((link) => {
           link.classList.remove('active');
         });
