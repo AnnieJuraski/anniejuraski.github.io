@@ -124,7 +124,7 @@ header{
 }
 
 .parallax{
-    background-image: url(../img/bg-header-resize.png);    
+    background-image: url(../img/bg-header-01.jpg);    
 }
 
 .parallax::after{
@@ -135,7 +135,7 @@ header{
     position: absolute;
     z-index: 10;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000 95%);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 }
 
 .header__title{
@@ -524,9 +524,9 @@ input::placeholder{
 
 .send{    
     padding: 10px;
-    margin: 50px  auto;
+    margin: 20px  auto 100px;
     width: 500px;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--white);
 }
 
