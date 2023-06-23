@@ -14,10 +14,6 @@
     scroll-behavior: smooth;
 }
 
-
-html {
-}
-
 body {
     font-family: var(--mainFont);
     background-color: #222;
@@ -42,7 +38,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20%;
+    padding: 5px 20%;
     top: 0;
     left: 0;
     right: 0;
@@ -54,7 +50,7 @@ nav {
 
 #logo {
     font-family: var(--logo);
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--brigther-purle);
     text-shadow: 2px 2px 1px black;
 }
@@ -129,7 +125,7 @@ header {
 }
 
 .header__title {
-    font-size: 6rem;
+    font-size: 5rem;
     text-shadow: 0px 0px 20px #000;
 }
 
@@ -137,7 +133,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
     z-index: 20;
     text-shadow: 0px 0px 20px #000;
@@ -147,12 +143,12 @@ header {
     margin: 20px 0;
     display: flex;
     justify-content: flex-start;
-    gap: 60px;
+    gap: 45px;
     z-index: 20;
 }
 
 .social__icon {
-    height: 80px;
+    height: 60px;
     color: var(--primary-color);
     transition: 0.6s ease-in-out;
 }
@@ -191,7 +187,7 @@ header {
 
 .profile-pic {
     height: 100%;
-    max-height: 450px;
+    max-height: 350px;
     border-radius: 50%;
     box-shadow: -15px 8px 0px 5px var(--darker-purple);
     z-index: 20;
