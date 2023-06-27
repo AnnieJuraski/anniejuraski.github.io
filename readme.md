@@ -29,4 +29,3 @@ Desenvolvi um layout próprio, pois por se tratar de um portfólio que usarei fu
       <img align="center" height="80" alt="js icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"> &nbsp;&nbsp;
       <img align="center" height="80" alt="html icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> &nbsp;            
     </div>
-
