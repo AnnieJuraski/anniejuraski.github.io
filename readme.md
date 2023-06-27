@@ -6,6 +6,17 @@ Portfólio desenvolvido para o desafio Alura de Front-End.
 Link para o projeto: https://anniealves.github.io
 <br>
 <br>
+<div align="center">
+   
+  ![badge](https://github.com/AnnieAlves/anniealves.github.io/assets/122943792/95065b6c-f172-4a26-bfd3-2a42ff21e3a5)
+
+  <br>
+  Badge do Desafio.
+
+   
+</div>
+
+
 <h2> Layout </h2>
 <br>
 Desenvolvi um layout próprio, pois por se tratar de um portfólio que usarei futuramente como meu site, quero uma coisa que seja mais parecido com o que eu gostaria. Então fiz um layout verticalizado, utilizando menus de navegação fixo no topo e um botão que nos leva de volta para o topo. Utilizei como header uma imagem de notebook com tela de programação, sendo aplicado um blur de 4px. Com a estilização, criei um efeito de paralax.
