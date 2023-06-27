@@ -97,8 +97,6 @@ input:-webkit-autofill:active{
     -webkit-text-fill-color: var(--white);
 }
 
-
-
 input.erro-form,
 textarea.error-form{
     border-bottom: 1px solid red;

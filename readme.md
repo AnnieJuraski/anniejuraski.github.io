@@ -11,9 +11,7 @@ Link para o projeto: https://anniealves.github.io
   ![badge](https://github.com/AnnieAlves/anniealves.github.io/assets/122943792/95065b6c-f172-4a26-bfd3-2a42ff21e3a5)
 
   <br>
-  Badge do Desafio.
-
-   
+  Badge do Desafio.   
 </div>
 
 
