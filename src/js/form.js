@@ -54,7 +54,7 @@ export function sendMSG(){
                 subject.value = '';
                 msg.value = '';
 
-                console.log(res);
+                alert('Mensagem enviada!')
             })
         .catch((err) => console.log(err));
     }   
