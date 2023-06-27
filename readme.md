@@ -19,5 +19,3 @@ Desenvolvi um layout próprio, pois por se tratar de um portfólio que usarei fu
       <img align="center" height="80" alt="html icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> &nbsp;            
     </div>
 
-
-e4ef8e6d-35c0-4c4d-92b0-8c7b58ee7b57
