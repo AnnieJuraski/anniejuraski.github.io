@@ -1,5 +1,4 @@
-
-#contato{
+#contato {
     padding-bottom: 150px;
 }
 
@@ -9,7 +8,7 @@ form {
 }
 
 
-.form__container{
+.form__container {
     padding: 0 10%;
 }
 
@@ -55,15 +54,15 @@ input {
     padding: .5rem 1rem;
 
     width: 100%;
-    
+
     border: none;
     border-bottom: 1px solid var(--primary-color);
-    
+
     font-size: 1.25rem;
     color: var(--white);
     font-family: var(--mainFont);
-    
-    background: hsla(0, 0%, 1%, 0.3);    
+
+    background: hsla(0, 0%, 1%, 0.3);
 }
 
 input.error-form {
@@ -84,21 +83,28 @@ input::placeholder {
 
 
 textarea:focus,
-input:focus{
+input:focus {
     outline: none;
     box-shadow: 0 0 30px -10px var(--brigther-purle);
 }
 
+
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px black inset !important;
-    -webkit-text-fill-color: var(--white) !important;
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--primary-color);
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 input.erro-form,
-textarea.error-form{
+textarea.error-form {
     border-bottom: 1px solid red;
 }
 
@@ -111,7 +117,7 @@ textarea.error-form{
     display: none;
 }
 
-i.active{
+i.active {
     display: block;
 }
 
@@ -123,5 +129,3 @@ i.active{
     font-size: 2rem;
     color: var(--white);
 }
-
-
