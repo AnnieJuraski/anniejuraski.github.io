@@ -93,13 +93,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active{
-<<<<<<< HEAD
     -webkit-box-shadow: 0 0 0 30px black inset !important;
     -webkit-text-fill-color: var(--white) !important;
-=======
-    -webkit-box-shadow: 0 0 0 30px black inset;
-    -webkit-text-fill-color: var(--white);
->>>>>>> 9d791644d6977ec0417387eb839bd2d3e360bde7
 }
 
 input.erro-form,
