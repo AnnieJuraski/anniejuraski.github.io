@@ -23,9 +23,25 @@
 
 
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/nav.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/content.css">
+    <link rel="stylesheet" href="./src/css/form.css">
+    <link rel="stylesheet" href="./src/css/buttons.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     <title>Annie Alves</title>
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("YkqW-uBfuII8RbUoW");
+   })();
+</script>
 </head>
 
 <body>
@@ -189,7 +205,7 @@
 
                     </h3>
 
-                    A Oracle, am parceria com a Alura, forneceu bolsas de estudos para diversas pessoas do Brasil,
+                    A Oracle, em parceria com a Alura, forneceu bolsas de estudos para diversas pessoas do Brasil,
                     dentro do programa ONE. No programa há cursos de desenvolvimento pessoal, business agility, HTML,
                     CSS e Javascript. Além disso, contam com desafios e imersões que ajudam a aumentar o conhecimento e
                     o portfólio.
@@ -207,7 +223,7 @@
 
                     </h3>
 
-                    Oferecido pela Womakers Code em parceria com a Potência Tech, é um programa que criado para
+                    Oferecido pela Womakers Code em parceria com a Potência Tech, é um programa criado para
                     capacitar mulheres a trabalharem na área de programação. Na capacitação são oferecidos cursos de
                     HTML, CSS, JavaScript, Métodos Ágeis, Design thinking, Lógica de Programação, Git e GitHub.
 
@@ -235,8 +251,7 @@
                                 <img src="./src/img/html5-original.svg" alt="Logo HTML" class="projetos__lang__thumb">
                             </div>
 
-                            Construído para um dos desafios Alura, usei JS para cripotgrafação e descripotgrafação do
-                            texto, fazendo correspondência entre duas arrays diferentes e substituindo pelo valor da
+                            Construído para um dos desafios Alura, usei JS para criptografar e descriptografar os textos inseridos, fazendo correspondência entre duas arrays diferentes e substituindo pelo valor da
                             outra.
 
                             <div class="btn__container">
@@ -261,9 +276,7 @@
                                 <img src="./src/img/html5-original.svg" alt="Logo HTML" class="projetos__lang__thumb">
                             </div>
 
-                            Projeto final do curso da Womakers Code. Elaborei o layout e desnvolvi a lógica para troca
-                            de slides usando Javascript puro. Também criei a lógica para a troca de tema e armazenamento
-                            do tema escolhido no LocalStorage.
+                            Projeto final do curso da Womakers Code. Elaborei o layout e desenvolvi a lógica para troca de slides usando Javascript puro. Também criei a lógica para a troca de tema e armazenamento do tema escolhido no LocalStorage.
 
                             <div class="btn__container">
                                 <a href="https://github.com/AnnieAlves/projeto-final-ada-lovelace" target="_blank"
@@ -336,12 +349,12 @@
                     <h2 class="contact__title">Envie a sua mensagem!</h2>
 
 
-                    <form action="" method="post">
+                    <form action=""  method="post">
 
                         <div class="control-form name">
                             <label for="name">Nome</label>
                             <input type="text" id="name" name="name" placeholder="Digite seu nome">
-                            <i class="error error-name"> Digite um nome válido</i>
+                            <i class="error" id="error-name"> Digite um nome válido</i>
                         </div>
 
                         <div class="control-form email">
@@ -353,7 +366,7 @@
                         <div class="control-form subject">
                             <label for="subject">Assunto</label>
                             <input type="text" id="subject" name="subject" placeholder="Assunto....">
-                            <i class="error error-email"> Digite uma assunto</i>
+                            <i class="error error-email"> Digite um assunto</i>
                         </div>
 
 
@@ -361,10 +374,10 @@
                             <label for="subject">Mensagem</label>
                             <textarea name="msg" id="msg" cols="30" rows="10"
                                 placeholder="Digite a sua mensagem"></textarea>
-                            <i class="error error-msg"> Digite uma mensagem</i>
+                            <i class="error error-msg"> Digite uma mensagem de no mínimo 10 caracteres</i>
                         </div>
 
-                        <button class="hollow send" type="submit">Enviar</button>
+                        <button class="hollow" id="send" >Enviar</button>
                     </form>
                 </div>
             </section>
@@ -376,6 +389,8 @@
     <footer>
         <p>Desenvolvido por Annie Alves: <em> "Apenas uma dev de passagem"</em></p>
     </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script type='module' src="/src/js/main.js"></script>
 </body>

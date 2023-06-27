@@ -1,0 +1,129 @@
+
+@media (max-width: 1440px){
+
+    nav{
+        padding: 5px 5%;
+    }
+
+    #logo{
+        font-size: 2.5rem;
+    }
+
+
+    .header__title {
+        font-size: 4rem;
+        
+    }
+    
+    .header__text {  
+    
+        font-size: 2rem;
+        
+    }
+}
+
+
+
+
+@media (max-width: 1024px){
+
+    header{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .header__text{
+        align-items: center;
+
+    }
+}
+
+
+@media (max-width: 850px){
+
+   .projeto{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+   }
+
+   .projeto__thumb {
+    object-fit: cover;
+    height: 100%;
+    width: 85%;
+}
+}
+
+
+@media (max-width: 700px){
+
+    .header__title {
+        font-size: 3.5rem;        
+    }
+    
+    .header__text {      
+        font-size: 1.75rem;        
+    }
+
+    .curso,
+    .projeto {
+        text-align: center;
+        line-height: 1.5;        
+    }
+    
+
+    .control-form {
+        width: 100%;
+    }
+
+    .control-form:first-child {
+        margin-right: 0px;
+    }
+
+
+    footer{
+        font-size: .75rem;
+    }
+ }
+
+
+
+ @media (max-width: 414px){
+
+    nav{
+        padding: 5px 0;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .nav__link {
+        margin-left: 1rem;
+        font-size: .75rem;
+    }
+
+    .header__title {
+        font-size: 2rem;        
+    }
+    
+    .header__text {      
+        font-size: 1.25rem;        
+    }
+
+    .social__icon {
+        height: 40px;
+    }
+
+    .profile-pic {
+        height: 100%;
+        max-height: 250px;    
+    }
+
+    
+ }
+
+
+
+
