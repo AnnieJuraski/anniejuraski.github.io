@@ -25,7 +25,7 @@
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
 
     header{
         flex-direction: column-reverse;
@@ -36,6 +36,13 @@
     .header__text{
         align-items: center;
 
+    }
+
+    #go-up {
+        width: 40px;
+        
+        bottom: 20px;
+        right: 10px;  
     }
 }
 
@@ -53,21 +60,38 @@
     height: 100%;
     width: 85%;
 }
+
 }
 
 
 @media (max-width: 700px){
 
-    .header__title {
-        font-size: 3.5rem;        
+    #logo{
+        display: none;
     }
+
+    nav{
+        padding: 5px 0;
+        justify-content: center;
+    } 
+
+    .nav__link {
+        margin-left: .5rem;
+        font-size: 1rem;
+    }
+
+    .header__title {
+        font-size: 2.25rem;        
+    }
+   
     
     .header__text {      
-        font-size: 1.75rem;        
+        font-size: 1.25rem;        
     }
 
     .curso,
-    .projeto {
+    .projeto,
+    .about__text {
         text-align: center;
         line-height: 1.5;        
     }
@@ -93,19 +117,15 @@
 
     nav{
         padding: 5px 0;
-    }
-
-    #logo{
-        display: none;
-    }
-
-    .nav__link {
-        margin-left: 1rem;
-        font-size: .75rem;
-    }
+    }   
 
     .header__title {
         font-size: 2rem;        
+    }
+
+    .nav__link {
+        margin-left: .2rem;
+        font-size: .7rem;
     }
     
     .header__text {      
@@ -118,12 +138,28 @@
 
     .profile-pic {
         height: 100%;
-        max-height: 250px;    
+        max-height: 210px;    
     }
 
+    .btn__container {
+        flex-direction: column;
+    }
     
  }
 
+ @media (max-width: 320px){
 
+    .header__title {
+        font-size: 1.5rem;        
+    }
+   
+    
+    .header__text {      
+        font-size:1rem;        
+    }
+
+
+
+ }
 
 
