@@ -1,5 +1,5 @@
 .container {    
-    background: radial-gradient(ellipse at bottom, #100018 -10%, #000000 90%);
+    background: radial-gradient(ellipse at bottom, hsl(275, 90%, 5%) -10%, #000000 90%);
     background-color: #000;
 
 
@@ -88,7 +88,7 @@
 
 .content__box {
     width: 150px;
-    background: linear-gradient(to bottom, hsl(283, 35%, 60%), hsl(280, 65%, 10%));
+    background: linear-gradient(to bottom, hsl(272, 45%, 30%), hsl(270, 75%, 8%));
     padding: 10px;
     border-radius: 20px;
     position: relative;
@@ -140,10 +140,11 @@
 
 
 .curso__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 700;
     text-decoration: underline;
+    font-family: var(--titleFont);
 }
 
 .curso__titulo--container{
@@ -219,43 +220,4 @@
 
 .projeto__descricao .projetos__lang img {
     height: 3rem;
-}
-
-
-.btn__container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-
-.btn__container a {
-    font-size: 1rem;
-    color: var(--white);
-    font-family: var(--titleFont);
-    text-align: center;
-
-
-    padding: 10px;
-
-    box-sizing: border-box;
-
-    width: 10rem;    
-}
-
-
-.btn__container .fill {    
-    background: linear-gradient(to right, var(--primary-color) 0%, var(--darker-purple) 50%, var(--darker-purple) 100%) right;
-    background-size: 200%;
-
-    border: 2px solid var(--primary-color);
-    border-radius: 25px;
-
-    transition: background-position 0.4s ease-in-out, transform 0.1s ease;
-}
-
-
-
-.btn__container .fill:hover {
-    background-position: left;
 }

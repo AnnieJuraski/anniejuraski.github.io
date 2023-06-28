@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #9000b8;
-    --darker-purple: #38044d;
+    --primary-color: hsl(280, 90%, 38%);
+    --darker-purple: hsl(275, 85%, 20%);
     --brigther-purle: hsl(285, 100%, 50%);
     --white: #ccc;
     --gray: hsl(0, 0%, 40%);
