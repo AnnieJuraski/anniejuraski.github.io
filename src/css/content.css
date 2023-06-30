@@ -1,5 +1,5 @@
 .container {    
-    background: radial-gradient(ellipse at bottom, hsl(275, 90%, 5%) -10%, #000000 90%);
+    background: radial-gradient(ellipse at bottom, hsl(278, 90%, 5%) 0%, #000000 90%);
     background-color: #000;
 
 
@@ -88,7 +88,7 @@
 
 .content__box {
     width: 150px;
-    background: linear-gradient(to bottom, hsl(272, 45%, 30%), hsl(270, 75%, 8%));
+    background: linear-gradient(to bottom, hsl(278, 40%, 35%), hsl(270, 75%, 8%));
     padding: 10px;
     border-radius: 20px;
     position: relative;
