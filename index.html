@@ -15,11 +15,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -29,19 +27,20 @@
     <link rel="stylesheet" href="./src/css/content.css">
     <link rel="stylesheet" href="./src/css/form.css">
     <link rel="stylesheet" href="./src/css/buttons.css">
+    <link rel="stylesheet" href="./src/css/cursos.css">
+    <link rel="stylesheet" href="./src/css/projetos.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 
     <title>Annie Alves</title>
 
 
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("YkqW-uBfuII8RbUoW");
-   })();
-</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("YkqW-uBfuII8RbUoW");
+        })();
+    </script>
 </head>
 
 <body>
@@ -76,8 +75,7 @@
                     </svg>
                 </a>
 
-                <a class="social__icon" title="LinkedIn" target="blank"
-                    href="https://www.linkedin.com/in/annie-alves/">
+                <a class="social__icon" title="LinkedIn" target="blank" href="https://www.linkedin.com/in/annie-alves/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24">
                         <path fill='currentColor'
                             d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
@@ -93,7 +91,7 @@
             </div>
 
             <a href="./src/pdf/Currículo - Annie.pdf" target="_blank" class="hollow" id="downloadCV">
-                Currículo</a>
+                Currículo  <i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ccc;"></i> </a>
         </div>
 
         <img class="profile-pic" src="./src/img/01.png" alt="Foto de perfil">
@@ -197,19 +195,25 @@
                 <div class="curso">
                     <img src="./src/img/alura-logo.1686744881.svg" alt="Logo da Alura" class="curso-img">
 
-                   <div class="curso__titulo--container">
-                    <h3 class="curso__titulo">
-                        Oracle Next Education
-                    </h3>
-                    <div class="periodo">
-                        31 de Março de 2023 / Presente
+                    <div class="curso__titulo--container">
+                        <h3 class="curso__titulo">
+                            Oracle Next Education
+                        </h3>
+                        <div class="periodo">
+                            31 de Março de 2023 / Presente
+                        </div>
                     </div>
-                   </div>
 
                     A Oracle, em parceria com a Alura, forneceu bolsas de estudos para diversas pessoas do Brasil,
                     dentro do programa ONE. No programa há cursos de desenvolvimento pessoal, business agility, HTML,
                     CSS e Javascript. Além disso, contam com desafios e imersões que ajudam a aumentar o conhecimento e
                     o portfólio.
+
+                    
+
+                    <a target="_blank" href="https://drive.google.com/drive/folders/115fHK_ZIqYdvPZ0Z8hkLiELPn3uF5BwX?usp=sharing" id="certificadoWomakers" class="hollow">
+                        Certificados <i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ccc;"></i>
+                    </a>
                 </div>
 
 
@@ -218,7 +222,7 @@
 
                     <div class="curso__titulo--container">
                         <h3 class="curso__titulo">
-                            Programação Web para Iniciantes  
+                            Programação Web para Iniciantes
                         </h3>
                         <div class="periodo">
                             20 de Março de 2023 / 9 de Maio de 2023
@@ -229,9 +233,9 @@
                     capacitar mulheres a trabalharem na área de programação. Na capacitação são oferecidos cursos de
                     HTML, CSS, JavaScript, Métodos Ágeis, Design thinking, Lógica de Programação, Git e GitHub.
 
-                    <button id="certificadoWomakers" class="hollow">
-                        Certificado
-                    </button>
+                    <a target="_blank" href="./src/pdf/Annie Araújo Alves - Certificado Womakers Code.pdf" id="certificadoWomakers" class="hollow">
+                        Certificado <i class="fa-sharp fa-solid fa-arrow-up-right-from-square" style="color: #ccc;"></i>
+                    </a>
                 </div>
             </section>
 
@@ -253,7 +257,8 @@
                                 <img src="./src/img/html5-original.svg" alt="Logo HTML" class="projetos__lang__thumb">
                             </div>
 
-                            Construído para um dos desafios Alura, usei JS para criptografar e descriptografar os textos inseridos, fazendo correspondência entre duas arrays diferentes e substituindo pelo valor da
+                            Construído para um dos desafios Alura, usei JS para criptografar e descriptografar os textos
+                            inseridos, fazendo correspondência entre duas arrays diferentes e substituindo pelo valor da
                             outra.
 
                             <div class="btn__container">
@@ -278,7 +283,9 @@
                                 <img src="./src/img/html5-original.svg" alt="Logo HTML" class="projetos__lang__thumb">
                             </div>
 
-                            Projeto final do curso da Womakers Code. Elaborei o layout e desenvolvi a lógica para troca de slides usando Javascript puro. Também criei a lógica para a troca de tema e armazenamento do tema escolhido no LocalStorage.
+                            Projeto final do curso da Womakers Code. Elaborei o layout e desenvolvi a lógica para troca
+                            de slides usando Javascript puro. Também criei a lógica para a troca de tema e armazenamento
+                            do tema escolhido no LocalStorage.
 
                             <div class="btn__container">
                                 <a href="https://github.com/AnnieAlves/projeto-final-ada-lovelace" target="_blank"
@@ -351,7 +358,7 @@
                     <h2 class="contact__title">Envie a sua mensagem!</h2>
 
 
-                    <form action=""  method="post">
+                    <form action="" method="post">
 
                         <div class="control-form name">
                             <label for="name">Nome</label>
@@ -379,7 +386,7 @@
                             <i class="error error-msg"> Digite uma mensagem de no mínimo 10 caracteres</i>
                         </div>
 
-                        <button class="hollow" id="send" >Enviar</button>
+                        <button class="hollow" id="send">Enviar</button>
                     </form>
                 </div>
             </section>

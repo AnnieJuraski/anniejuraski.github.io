@@ -17,7 +17,7 @@ header {
 }
 
 .parallax {
-    background-image: url(../img/bg-header-01.jpg);
+    background-image: url(../img/bg-moon-ii.jpg);
 }
 
 .parallax::after {
@@ -33,8 +33,8 @@ header {
     z-index: 10;
 
 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000 95%);
-    backdrop-filter: blur(2px);
+    background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.4) 0, #000 95%);
+    backdrop-filter: blur(0px);
 }
 
 .header__title {

@@ -1,7 +1,7 @@
 :root {
-    --primary-color: hsl(283, 90%, 38%);
+    --primary-color: hsl(285, 95%, 35%);
     --darker-purple: hsl(280, 85%, 20%);
-    --brigther-purle: hsl(283, 80%, 40%);
+    --brigther-purle: hsl(287, 80%, 45%);
     --white: #ccc;
     --gray: hsl(0, 0%, 40%);
     --border-nav: 1px solid var(--gray);
