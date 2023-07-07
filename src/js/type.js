@@ -1,14 +1,22 @@
 export default function typing(element1, element2) {
-    const arrText1 = element1.innerHTML.split('');
+
+  const nome = "Oi, eu sou a Annie"
+  const titulo = "Desenvolvedora Front-End"
+
+
+
+    const arrText1 = nome.split('');
     element1.innerHTML = '';
   
-    const arrText2 = element2.innerHTML.split('');
+    const arrText2 = titulo.split('');
     element2.innerHTML = '';
   
     arrText1.forEach((letter, i) => {
       setTimeout(() => {
-        element1.innerHTML += letter;
-      }, 50 * i);
+        setTimeout(() => {
+          element1.innerHTML += letter;
+        }, 50 * i);
+      }, 500);
     });
   
     setTimeout(() => {
@@ -17,5 +25,5 @@ export default function typing(element1, element2) {
           element2.innerHTML += letter;
         }, 50 * i);
       });
-    }, 1000); 
+    }, 1700); 
   }
