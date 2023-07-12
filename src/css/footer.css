@@ -1,0 +1,12 @@
+footer {
+    background-color: #000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+footer em {
+    font-style: italic;
+}

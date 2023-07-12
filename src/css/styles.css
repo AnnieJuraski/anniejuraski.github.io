@@ -1,3 +1,18 @@
+@import url('nav.css');
+@import url('header.css');
+@import url('content.css');
+@import url('cursos.css');
+@import url('projetos.css');
+@import url('buttons.css');
+@import url('footer.css');
+@import url('form.css');
+@import url('responsive.css');
+
+
+
+
+
+
 :root {
     --primary-color: hsl(285, 95%, 35%);
     --darker-purple: hsl(280, 85%, 20%);
@@ -38,15 +53,3 @@ a{
     text-decoration: none;
 }
 
-footer {
-    background-color: #000;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-}
-
-footer em {
-    font-style: italic;
-}
