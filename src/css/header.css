@@ -13,7 +13,7 @@ header {
 
 
 .parallax {
-    background: url(../img/bg-moon-ii.jpg) center/cover no-repeat fixed;
+    background: url(../img/bg-header-resize.png) center/cover no-repeat fixed;
 }
 
 .parallax::after {
