@@ -1,5 +1,5 @@
 .container {    
-    background: radial-gradient(ellipse at bottom, hsl(278, 90%, 5%) 0%, #000000 80%);
+    background: radial-gradient(ellipse at bottom, hsl(278, 90%, 5%) -20%, #000000 70%);
     background-color: #000;
 }
 
