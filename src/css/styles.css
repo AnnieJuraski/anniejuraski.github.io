@@ -14,15 +14,15 @@
 
 
 :root {
-    --primary-color: hsl(285, 95%, 35%);
-    --darker-purple: hsl(280, 85%, 20%);
-    --brigther-purle: hsl(287, 80%, 45%);
+    --primary-color: hsl(285, 100%, 30%);
+    --darker-purple: hsl(283, 100%, 20%);
+    --brigther-purple: hsl(287, 80%, 50%);
     --white: #ccc;
     --gray: hsl(0, 0%, 40%);
     --border-nav: 1px solid var(--gray);
     --logo: 'Corinthia', cursive;
-    --mainFont: 'Roboto', sans-serif;
-    --titleFont: 'Roboto Slab', serif;
+    --mainFont: 'Abel', sans-serif;
+    --titleFont: 'Play', sans-serif;
 }
 
 * {
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, var(--darker-purple), var(--brigther-purle), var(--darker-purple));
+    background: linear-gradient(to bottom, var(--darker-purple), var(--brigther-purple), var(--darker-purple));
     border-radius: 10px;
 }
 

@@ -15,7 +15,7 @@
     border: 3px solid var(--primary-color);
 
 
-    transition: background-position 0.4s ease-in-out, transform 0.1s ease;
+    transition: background-position 0.6s ease-in-out, transform 0.1s ease;
 }
 
 .hollow:hover {
@@ -50,13 +50,13 @@
 
 
 .btn__container .fill {    
-    background: linear-gradient(to right, var(--primary-color) 0%, var(--darker-purple) 50%, var(--darker-purple) 100%) right;
+    background: linear-gradient(to right, var(--brigther-purple) 0%, var(--darker-purple) 50%, var(--darker-purple) 100%) right;
     background-size: 200%;
 
     border: 2px solid var(--primary-color);
     border-radius: 25px;
 
-    transition: background-position 0.4s ease-in-out, transform 0.1s ease;
+    transition: background-position 0.6s ease-in-out, transform 0.1s ease;
 }
 
 

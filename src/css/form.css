@@ -58,7 +58,7 @@ input {
     border: none;
     border-bottom: 1px solid var(--primary-color);
 
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--white);
     font-family: var(--mainFont);
 
@@ -85,7 +85,7 @@ input::placeholder {
 textarea:focus,
 input:focus {
     outline: none;
-    box-shadow: 0 0 30px -10px var(--brigther-purle);
+    box-shadow: 0 0 30px -10px var(--brigther-purple);
 }
 
 
