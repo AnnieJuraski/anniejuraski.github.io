@@ -10,7 +10,7 @@
     align-items: center;
 
 
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 
 
@@ -35,7 +35,7 @@
     text-align: center;
     font-weight: 700;
     text-decoration: underline;
-    font-family: var(--titleFont);
+    font-family: var(--mainFont);
 }
 
 .curso__titulo--container{

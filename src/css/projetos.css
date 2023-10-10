@@ -31,7 +31,7 @@
 .projeto__descricao {
     width: 50%;
     text-align: center;    
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
     
     display: flex;
@@ -43,7 +43,7 @@
 
 
 .projeto__descricao .projeto__titulo {
-    font-family: var(--titleFont);
+    font-family: var(--mainFont);
     font-size: 1.75rem;
 }
 

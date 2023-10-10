@@ -21,8 +21,7 @@
     --gray: hsl(0, 0%, 40%);
     --border-nav: 1px solid var(--gray);
     --logo: 'Corinthia', cursive;
-    --mainFont: 'Abel', sans-serif;
-    --titleFont: 'Play', sans-serif;
+    --mainFont: 'Play', sans-serif;
 }
 
 * {

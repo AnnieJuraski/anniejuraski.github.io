@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    font-family: var(--titleFont);
+    font-family: var(--mainFont);
 
     padding: 0 10%;
     position: relative;

@@ -37,14 +37,14 @@
 
     text-align: center;
     font-size: 3rem;
-    font-family: var(--titleFont);
+    font-family: var(--mainFont);
     font-weight: 700;
 }
 
 
 .about__text {
     margin-top: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 

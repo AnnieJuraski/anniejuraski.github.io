@@ -43,7 +43,7 @@ nav {
 
     color: var(--white);
     font-size: 1.25rem;
-    font-family: var(--titleFont);
+    font-family: var(--mainFont);
     font-weight: 700;
 
     position: relative;
