@@ -1,0 +1,131 @@
+#contato {
+    padding-bottom: 150px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.form__container {
+    padding: 0 10%;
+}
+
+.contact__title {
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+
+.control-form {
+    margin-bottom: 1rem;
+    width: 10%;
+    flex-grow: 1;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.control-form:first-child {
+    margin-right: 60px;
+}
+
+
+.control-form.subject {
+    width: 100%;
+}
+
+
+.control-form.msg {
+    width: 100%;
+}
+
+label {
+    font-size: 1.25rem;
+    padding-left: 5px;
+}
+
+
+textarea,
+input {
+    margin-top: 6px;
+    padding: .5rem 1rem;
+
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+
+    font-size: 1.25rem;
+    color: var(--white);
+    font-family: var(--mainFont);
+
+    background: hsla(0, 0%, 1%, 0.3);
+}
+
+input.error-form {
+    border-bottom: 1px solid red;
+}
+
+textarea {
+    height: 16rem;
+    padding: 1rem;
+    resize: none;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: hsl(0, 0%, 20%);
+    font-family: var(--mainFont);
+}
+
+
+textarea:focus,
+input:focus {
+    outline: none;
+    box-shadow: 0 0 30px -10px var(--brigther-purple);
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--primary-color);
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input.erro-form,
+textarea.error-form {
+    border-bottom: 1px solid red;
+}
+
+.error {
+    font-size: 1rem;
+    color: red;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    display: none;
+}
+
+i.active {
+    display: block;
+}
+
+
+#send {
+    padding: 10px;
+    margin: 10px auto 100px;
+    width: 500px;
+    font-size: 2rem;
+    color: var(--white);
+}

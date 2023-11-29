@@ -1,0 +1,54 @@
+@import url('nav.css');
+@import url('header.css');
+@import url('content.css');
+@import url('cursos.css');
+@import url('projetos.css');
+@import url('buttons.css');
+@import url('footer.css');
+@import url('form.css');
+@import url('responsive.css');
+
+
+
+
+
+
+:root {
+    --primary-color: hsl(285, 100%, 30%);
+    --darker-purple: hsl(283, 100%, 20%);
+    --brigther-purple: hsl(287, 80%, 50%);
+    --white: #ccc;
+    --gray: hsl(0, 0%, 40%);
+    --border-nav: 1px solid var(--gray);
+    --logo: 'Beau Rivage', cursive;
+    --mainFont: 'Play', sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--mainFont);
+
+    background-color: #222;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, var(--darker-purple), var(--brigther-purple), var(--darker-purple));
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+

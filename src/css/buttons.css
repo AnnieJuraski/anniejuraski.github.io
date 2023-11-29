@@ -1,0 +1,97 @@
+.hollow {
+    background-color: transparent;
+    background: linear-gradient(to left, transparent 50%, var(--darker-purple) 100%) right;
+    background-size: 400%;
+
+
+    color: var(--white);
+    font-family: var(--mainFont);
+    font-size: 2rem;
+
+
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    border: 3px solid var(--primary-color);
+
+
+    transition: background-position 0.6s ease-in-out, transform 0.1s ease;
+}
+
+.hollow:hover {
+    background-position: left;
+}
+
+.hollow:active {
+    transform: scale(.95);
+}
+
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btn__container a {
+    font-size: 1rem;
+    color: var(--white);
+    font-family: var(--mainFont);
+    text-align: center;
+
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    width: 10rem;    
+}
+
+
+.btn__container .fill {    
+    background: linear-gradient(to right, var(--brigther-purple) 0%, var(--darker-purple) 50%, var(--darker-purple) 100%) right;
+    background-size: 200%;
+
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+
+    transition: background-position 0.6s ease-in-out, transform 0.1s ease;
+}
+
+
+
+.btn__container .fill:hover {
+    background-position: left;
+}
+
+
+.fa-arrow-up-right-from-square{
+    margin-left: 1rem;
+}
+
+
+#go-up {
+    width: 60px;
+    
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 200;
+
+
+    opacity: 0;
+
+
+    transform: scale(0);
+    transition: all .4s ease-in;
+
+
+    cursor: pointer;
+}
+
+#go-up.active {
+    opacity: 1;
+    transform: scale(1);
+}

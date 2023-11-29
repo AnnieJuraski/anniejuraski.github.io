@@ -1,0 +1,165 @@
+
+@media (max-width: 1440px){
+
+    nav{
+        padding: 5px 5%;
+    }
+
+    #logo{
+        font-size: 2.5rem;
+    }
+
+
+    .header__title {
+        font-size: 4rem;
+        
+    }
+    
+    .header__text {  
+    
+        font-size: 2rem;
+        
+    }
+}
+
+
+
+
+@media (max-width: 1200px){
+
+    header{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .header__text{
+        align-items: center;
+
+    }
+
+    #go-up {
+        width: 40px;
+        
+        bottom: 20px;
+        right: 10px;  
+    }
+}
+
+
+@media (max-width: 850px){
+
+   .projeto{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+   }
+
+   .projeto__thumb {
+    object-fit: cover;
+    height: 100%;
+    width: 85%;
+}
+
+}
+
+
+@media (max-width: 700px){
+
+    #logo{
+        display: none;
+    }
+
+    nav{
+        padding: 5px 0;
+        justify-content: center;
+    } 
+
+    .nav__link {
+        margin-left: .5rem;
+        font-size: 1rem;
+    }
+
+    .header__title {
+        font-size: 2.25rem;        
+    }
+   
+    
+    .header__text {      
+        font-size: 1.25rem;        
+    }
+
+    .curso,
+    .projeto,
+    .about__text {
+        text-align: center;
+        line-height: 1.5;        
+    }
+    
+
+    .control-form {
+        width: 100%;
+    }
+
+    .control-form:first-child {
+        margin-right: 0px;
+    }
+
+
+    footer{
+        font-size: .75rem;
+    }
+ }
+
+
+
+ @media (max-width: 414px){
+
+    nav{
+        padding: 5px 0;
+    }   
+
+    .header__title {
+        font-size: 2rem;        
+    }
+
+    .nav__link {
+        margin-left: .2rem;
+        font-size: .7rem;
+    }
+    
+    .header__text {      
+        font-size: 1.25rem;        
+    }
+
+    .social__icon {
+        height: 40px;
+    }
+
+    .profile-pic {
+        height: 100%;
+        max-height: 210px;    
+    }
+
+    .btn__container {
+        flex-direction: column;
+    }
+    
+ }
+
+ @media (max-width: 320px){
+
+    .header__title {
+        font-size: 1.5rem;        
+    }
+   
+    
+    .header__text {      
+        font-size:1rem;        
+    }
+
+
+
+ }
+
+
