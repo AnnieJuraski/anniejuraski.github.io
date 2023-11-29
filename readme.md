@@ -3,7 +3,7 @@
 <br>
 Portfólio desenvolvido para o desafio Alura de Front-End.
 <br>
-Link para o projeto: https://anniealves.github.io
+Link para o projeto: anniejuraski.github.io
 <br>
 <br>
 <div align="center">
