@@ -41,10 +41,15 @@
     font-weight: 700;
 }
 
+#about__title{
+    margin-bottom: 4rem;
+}
 
-.about__text {
-    margin-top: 4rem;
+
+.about__text  {
+    
     font-size: 1.5rem;
+    text-indent: 2rem;
 }
 
 
@@ -98,7 +103,7 @@
 
 
 .hard-skill {
-    height: 80px;
+    height: 100px;
 }
 
 
