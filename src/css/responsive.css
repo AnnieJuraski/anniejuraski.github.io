@@ -1,5 +1,5 @@
 
-@media (max-width: 1440px){
+@media (max-width: 2000px){
 
     nav{
         padding: 5px 5%;
@@ -19,6 +19,12 @@
     
         font-size: 2rem;
         
+    }
+
+    .nav__link {
+        margin-left: 1.2rem;
+        font-size: 1.2rem;
+    
     }
 }
 
