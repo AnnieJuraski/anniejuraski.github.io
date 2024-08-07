@@ -43,7 +43,7 @@ export function sendMSG(){
         };
 
 
-        const serviceID = "service_qnn0jd3";
+        const serviceID = "service_00o0rrj";
         const templateID = "template_9pitres";
 
         emailjs.send(serviceID, templateID, params)
